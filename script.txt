@@ -1,0 +1,37 @@
+color pallete:
+
+#6962f7 
+#17224D 
+#383838 
+ 
+ ou 
+
+#fff
+#ccc
+#222
+#62516d
+#f77a36
+
+
+sou um desenvolvedor profissional web e móvel. Meu principal objetivo é ajudar e satisfazer os clientes de todo mundo através de soluções de desenvolvimento.
+
+o que vou implementar:
+
+Habilidades
+
+html
+css
+js
+nodejs
+git
+react native
+
+** Serviços
+
+-[] Produção de websites responsivos, landing pages a sites dinâmicos;
+
+-[] landing pages para serviços e produtos;
+
+-[] carregamento rapido. A velocidade de carregamento de um site é uma questão fundamental para uma boa experiência do usuário e para SEO.
+
+-[] apps android e ios usando react native

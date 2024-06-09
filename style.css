@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+     
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #222; 
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.logo h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 22pt;
+  color: #fff;
+}
+
+.logo p {
+  font-size: 12pt;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 20px;
+  border-left: 2px solid;
+}
+
+.heroText h1 {
+  width: 350px;
+  font-size: 22pt;
+  margin-left: 30px;
+  font-weight: 500;
+}
+
+.heroText p {
+  font-size: 11pt;
+  width: 300px;
+  text-align: right;
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+.downloadBtn button {
+  background: transparent;
+  color: #fff;
+  font-size: 11pt;
+  border: 1px solid #fff;
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 107px;
+  position: absolute;
+}
+
+.heroText input {
+  background: transparent;
+  color: #fff;
+  font-size: 11pt;
+  border: 1px solid #fff;
+  padding: 20px;
+  margin-left: -160px;
+  margin-top: 10px;
+}
+
+.aboutMe {
+  margin: 90px 50px;
+}
+
+.aboutMe h1 {
+  font-size: 22pt;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.aboutMe p {
+  font-size: 14pt;
+}
+
+.aboutMe h3 {
+  font-size: 18pt;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.aboutMe img {
+  position: absolute;
+  width: 120px;
+  margin-left: 130px;
+  margin-top: -8px;
+}
+
+.aboutMe input {
+  background: transparent;
+  color: #fff;
+  font-size: 11pt;
+  border: 1px solid #fff;
+  padding: 20px 50px;
+  margin: 40px 60px;
+}
+
+.skill h1 {
+  font-size: 22pt;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.skill p {
+  font-size: 12pt;
+  text-align: center;
+}
+
+.geral {
+  margin: 50px 40px;
+}
+
+.geral h2 {
+  font-size: 20pt;
+}
+
+.geralBar {
+  position: absolute;
+  width: 250px;
+  height: 2px;
+  margin-top: -15px;
+  margin-left: 80px;
+  background-color: #fff;
+}
+
+.geral ul {
+  margin-top: 20px;
+}
+
+.geral ul li {
+  margin-top: 8px;
+  font-size: 12pt;
+  margin-left: 30px;
+}
+
+.web h2 {
+  font-size: 22pt;
+  text-align: center;
+  margin: 50px 0 20px 0;
+}
+
+.webGrid {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.webGrid article {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.mobile h2 {
+  font-size: 22pt;
+  text-align: center;
+  margin: 50px 0 20px 0;
+}
+
+.mobileGrid {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.mobileGrid article {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+label {
+  font-size: 12pt;
+  font-weight: 600;
+}
+
+.portfolio {
+  margin-top: 80px;
+}
+
+.portfolioText {
+  text-align: center;
+}
+
+.portfolioText h1 {
+  font-size: 22pt;
+}
+
+.portfolioText p {
+  font-size: 12pt;
+}
+
+.contact {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 22pt;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 12pt;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact form {
+  margin: 0 50px;
+}
+
+.contact form input {
+  background-color: #3b3b3b;
+  padding: 20px;
+  border: 1px solid #fff;
+  color: #ccc;
+  width: 260px;
+  margin-bottom: 10px;
+}
+
+.contact form textarea {
+  background-color: #3b3b3b;
+  color: #ccc;
+  padding: 20px;
+  border: 1px solid #fff;
+}
+
+.contact form input:focus {
+  outline: none;
+}
+
+.contact form textarea:focus {
+  outline: none;
+}
+
+.contact form textarea::placeholder,
+.contact form input{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 10pt;
+} 
+
+.contact button {
+  width: 80%;
+  background: transparent;
+  color: #fff;
+  font-size: 11pt;
+  border: 1px solid #fff;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 22pt;
+}
+
+.socials i {
+  padding: 0 10px;
+}
+
+footer h4 {
+  font-size: 12pt;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+@media(min-width: 1400px) {
+  .heroText {
+    width: 1100px;
+    margin: 80px 120px;
+    border-left: 2px solid;
+  }
+  
+  .heroText h1 {
+    width: 750px;
+    font-size: 52pt;
+    margin-left: -300px;
+    font-weight: 500;
+  }
+  
+  .heroText p {
+    font-size: 22pt;
+    width: 500px;
+    margin-left: 460px;
+  }
+  
+  .heroText input {
+    position: absolute;
+    font-size: 16pt;
+    border: 2px solid #fff;
+    padding: 20px 40px;
+    margin-left: -400px;
+    margin-top: -80px;
+    cursor: pointer;
+  }
+
+  .downloadBtn button {
+    position: absolute;
+    background: transparent;
+    font-size: 14pt;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    margin-left: 300px;
+    margin-top: -80px;
+    cursor: pointer;
+  }
+
+  .aboutMe {
+    background-color: red;
+    width: 700px;
+    justify-content: center;
+    text-align: center;
+  }
+}
