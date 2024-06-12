@@ -74,7 +74,7 @@ header {
 }
 
 .aboutMe {
-  margin: 90px 50px;
+  margin: 120px 50px 100px 50px;
 }
 
 .aboutMe h1 {
@@ -130,10 +130,10 @@ header {
 
 .geralBar {
   position: absolute;
-  width: 250px;
+  width: 200px;
   height: 2px;
   margin-top: -15px;
-  margin-left: 80px;
+  margin-left: 150px;
   background-color: #fff;
 }
 
@@ -181,6 +181,11 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
+}
+
+.firebaseLogo {
+  width: 60pt;
 }
 
 label {
@@ -190,10 +195,14 @@ label {
 
 .portfolio {
   margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .portfolioText {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .portfolioText h1 {
@@ -202,6 +211,81 @@ label {
 
 .portfolioText p {
   font-size: 12pt;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.projectImg img {
+  width: 600px;
+  transition: .5s;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectsSlider {
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.slide {
+  position: absolute;
+  min-width: 100%;
+  box-sizing: border-box;
+  opacity: 0;
+  height: 300px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide.text {
+  background-color: red;
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+}
+
+.projectsSlider button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.slide.active {
+  opacity: 1;
+  position: relative;
+}
+
+button.prev {
+  left: 0;
+}
+
+button.next {
+  right: 0;
 }
 
 .contact {
@@ -221,7 +305,7 @@ label {
 }
 
 .contact form {
-  margin: 0 50px;
+  margin: 50px;
 }
 
 .contact form input {
@@ -274,17 +358,19 @@ label {
 }
 
 .socials i {
+  color: #fff;
   padding: 0 10px;
 }
 
 footer h4 {
+  cursor: default;
   font-size: 12pt;
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
 }
 
-@media(min-width: 1400px) {
+@media (min-width: 1024px) {
   .heroText {
     width: 1100px;
     margin: 80px 120px;
@@ -327,9 +413,43 @@ footer h4 {
   }
 
   .aboutMe {
-    background-color: red;
     width: 700px;
     justify-content: center;
     text-align: center;
+    margin-left: 320px;
+  }
+
+  .aboutMe img {
+    margin-left: 290px;
+  }
+
+  .aboutMe input {
+    cursor: pointer;
+  }
+
+  .geral ul {
+    margin-left: 320px;
+  }
+
+  .geral h2 {
+    margin-left: 320px;
+  }
+
+  .geralBar {
+    position: absolute;
+    width: 250px;
+    height: 2px;
+    margin-left: 480px;
+  }
+
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact form button {
+    width: 280px;
+    cursor: pointer;
   }
 }
